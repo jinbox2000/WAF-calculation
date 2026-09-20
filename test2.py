@@ -27,7 +27,8 @@ out_dir = os.getcwd()
 
 files = sorted(
     glob.glob(
-        "/pscratch/sd/x/xie7/ls4p/zppy/output/daily/*/*nc"
+        #"/pscratch/sd/x/xie7/ls4p/zppy/output/daily/*/*nc"
+        "/pscratch/sd/x/xie7/ls4p/zppy/output/backup_test/*nc"
     )
 )
 
